@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/10.3/phpunit.xsd"
+         colors="true"
+         bootstrap="vendor/autoload.php"
+>
+    <testsuites>
+        <testsuite name="Paysuite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <ini name="error_reporting" value="E_ALL" />
+        <env name="API_KEY" value="REPLACE"/>
+    </php>
+
+</phpunit>
