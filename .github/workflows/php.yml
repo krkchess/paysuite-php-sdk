@@ -36,4 +36,6 @@ jobs:
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
     - name: Run test suite
+      env: 
+        API_KEY: ${{secrets.API_KEY}}
       run: composer run-script test
