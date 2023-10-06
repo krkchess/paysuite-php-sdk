@@ -2,6 +2,7 @@
     "name": "hypertech/paysuite-php-sdk",
     "description": "Paysuite client API SDK",
     "type": "library",
+    "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
             "Hypertech\\Paysuite\\": "src/"
@@ -20,5 +21,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^10"
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
