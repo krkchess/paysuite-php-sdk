@@ -37,5 +37,5 @@ jobs:
 
     - name: Run test suite
       env: 
-        API_KEY: ${{secrets.API_KEY}}
+        SECRET_KEY: ${{secrets.API_KEY}}
       run: composer run-script test
