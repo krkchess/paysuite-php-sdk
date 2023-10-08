@@ -1,3 +1,5 @@
+[![PHP Composer](https://github.com/hypertech-lda/paysuite-php-sdk/actions/workflows/php.yml/badge.svg)](https://github.com/hypertech-lda/paysuite-php-sdk/actions/workflows/php.yml)
+
 ## Como utilizar a biblioteca para criar um checkout
 
 A biblioteca `paysuite-php-sdk` permite que você crie checkouts de forma fácil e rápida. Para criar um checkout, e receber pagamentos suando métodos de pagamento disponíveis em Moçambique como Mpesa, eMola, PayPal e transferência bancária.
