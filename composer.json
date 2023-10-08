@@ -3,6 +3,14 @@
     "description": "Paysuite client API SDK",
     "type": "library",
     "license": "Apache-2.0",
+    "homepage": "https://packagist.org/packages/hypertech/paysuite-php-sdk",
+    "keywords": [
+        "paysuite client",
+        "mpesa",
+        "emola",
+        "payment gateway",
+        "sdk payment"
+    ],
     "autoload": {
         "psr-4": {
             "Hypertech\\Paysuite\\": "src/"
