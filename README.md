@@ -18,8 +18,9 @@ Para usar siga os seguintes passos:
 ```php
 use Hypertech\Paysuite\Client;
 
-$secret = "SuaChaveSecreta"
+$secret = "SuaChaveSecreta";
 $paysuite = new Client($secret);
+$paysuite->enableTestMode(); // Chame esta função para habilitar o modo de teste
 
 $result = $paysuite->checkout([
     "tx_ref" => 'FACT123',
